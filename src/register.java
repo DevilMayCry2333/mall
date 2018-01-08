@@ -30,7 +30,7 @@ public class register extends HttpServlet {
       String DBName = "mall";
       String reguser = request.getParameter("user");
       String regpass = request.getParameter("password");
-      String connUrl = "jdbc:mysql://123.207.30.199:3306/mall?user=guest&password=guest520&useUnicode=true&charset=utf-8&useSSL=true";
+      String connUrl = "jdbc:mysql://XXXXXX:3306/mall?user=guest&password=guest520&useUnicode=true&charset=utf-8&useSSL=true";
       Boolean fail = Boolean.valueOf(false);
       boolean var25 = false;
 

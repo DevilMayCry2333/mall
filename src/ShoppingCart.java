@@ -28,7 +28,7 @@ public class ShoppingCart extends HttpServlet {
       String PASS = "guest520";
       String DBName = "mall";
       PrintWriter out = response.getWriter();
-      String connUrl = "jdbc:mysql://123.207.30.199:3306/mall?user=guest&password=guest520&useUnicode=true&charset=utf-8&useSSL=true";
+      String connUrl = "jdbc:mysql://XXXXXX:3306/mall?user=guest&password=guest520&useUnicode=true&charset=utf-8&useSSL=true";
       HttpSession session2 = request.getSession(false);
       String user_name = (String)session2.getAttribute("loginname");
       if(user_name == null) {

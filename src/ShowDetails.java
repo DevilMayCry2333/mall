@@ -30,7 +30,7 @@ public class ShowDetails extends HttpServlet {
       String USER = "guest";
       String PASS = "guest520";
       String DBName = "mall";
-      String connUrl = "jdbc:mysql://123.207.30.199:3306/mall?user=guest&password=guest520&useUnicode=true&charset=utf-8&useSSL=true";
+      String connUrl = "jdbc:mysql://XXXXXX:3306/mall?user=guest&password=guest520&useUnicode=true&charset=utf-8&useSSL=true";
 
       try {
          Class.forName("com.mysql.jdbc.Driver").newInstance();
